@@ -14,5 +14,6 @@ deploy:
   provider: gae
   keyfile: client-secret.json 
   project: oceanic-muse-269006
+  skip_cleanup: true
   on:
       branch: master
